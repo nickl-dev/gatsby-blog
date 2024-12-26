@@ -4,6 +4,8 @@
  * See: https://www.gatsbyjs.com/docs/reference/config-files/gatsby-node/
  */
 
+import createFilePath from "gatsby-source-filesystem"
+
 /**
  * @type {import('gatsby').GatsbyNode['createPages']}
  */
